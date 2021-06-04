@@ -9,15 +9,21 @@ import datetime
 import requests
 import json
 from requests_html import HTMLSession
+
+
 try:
-    with open('data.json') as json_file:
-        Papers = json.load(json_file)
+    f = open('data.json', )
+    Papers = json.load(f)
+
+
 except:
-    Papers={}
-    json = json.dumps(Papers)
+    Papers = {}
+    Paperjson = json.dumps(Papers)
     f = open("data.json", "w")
-    f.write(json)
+    f.write(Paperjson)
     f.close()
+
+
 
 
 
@@ -53,10 +59,10 @@ algo={'SVM':['SVM'],'PCA':['PC1','PC2','PCA'],'Neural':['ANN','RNN','CNN','Bayes
 
 
 paperName=[]
-path = "C:\\Users\\prav\\Documents\\Papers"
+path = "C:\\Users\\prav\\PycharmProjects\\SVM\\PaperClassifier\\Papers\\"
 
 for filename in glob.glob(os.path.join(path, '*.pdf')):
-    Filename=filename.replace("C:\\Users\\prav\\Documents\\Papers\\", '')
+    Filename=filename.replace("C:\\Users\\prav\\PycharmProjects\\SVM\\PaperClassifier\\Papers\\", '')
     Filename = Filename.replace(".pdf", '')
     if Filename not in Papers:
         print (Filename)
@@ -80,9 +86,9 @@ for filename in glob.glob(os.path.join(path, '*.pdf')):
             extracted_text = slate.PDF(f)
             Papers[str(Filename)]=extracted_text,doi2bib(doi)
 
-json = json.dumps(Papers)
+Paperjson = json.dumps(Papers)
 f = open("data.json","w")
-f.write(json)
+f.write(Paperjson)
 f.close()
 
 i=1
