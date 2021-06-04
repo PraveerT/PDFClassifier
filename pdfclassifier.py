@@ -13,6 +13,16 @@ from requests_html import HTMLSession
 #output classifier file name
 Ofile='Gesture_recognition_paper'
 
+algo={'SVM':['SVM'],'PCA':['PC1','PC2','PCA'],'Neural':['ANN','RNN','CNN','Bayesian','DNN'],\
+      'RL':['DQN','C51','SAC','DDPG','PPO','A2C','A3C','AlphaZero','RL'],\
+      'HMM':['Ergodic','Bakis','Left-Right','Bakis','HMM'],'ADS':['ADS'],'BIRCH':['BIRCH'],\
+      'CDBN':['CDBN'],'DBN':['DBN'],'EM':['EM'],'GTM':['GTM'],'ICA':['ICA'],'MARL':['MARL'],'MLP':['MLP'],\
+      'MRL':['MRL'],'MDS':['MDS'],'NMF':['NMF'],'NMDS':['NMDS'],'RBM':['RBM'],'SON':['SON'],'SSAE':['SSAE'],\
+      't-SNE':['t-SNE'],'WSN':['WSN'],'MCA':['MCA'],'LLE':['LLE'],'LRD':['LRD'],\
+      'vehicles':['car','bus','truck','bike','skateboard'],\
+      'body':['hand','body','face','arm','leg','finger'],'body':['hand','body','face','arm','leg','finger'],\
+      'type':['camera','radar','optical','mm-wave','Millimeter','mm','5G','4G','6G']}
+
 try:
     f = open('data\\'+Ofile+'.json', )
     Papers = json.load(f)
@@ -26,10 +36,6 @@ except:
     f.close()
 
 
-
-
-
-
 def doi2bib(cite):
   url = "http://dx.doi.org/" + doi
 
@@ -39,26 +45,6 @@ def doi2bib(cite):
 
 
 url = 'https://ieeexplore.ieee.org/document/'
-
-
-
-
-
-
-
-
-
-
-algo={'SVM':['SVM'],'PCA':['PC1','PC2','PCA'],'Neural':['ANN','RNN','CNN','Bayesian','DNN'],\
-      'RL':['DQN','C51','SAC','DDPG','PPO','A2C','A3C','AlphaZero','RL'],\
-      'HMM':['Ergodic','Bakis','Left-Right','Bakis','HMM'],'ADS':['ADS'],'BIRCH':['BIRCH'],\
-      'CDBN':['CDBN'],'DBN':['DBN'],'EM':['EM'],'GTM':['GTM'],'ICA':['ICA'],'MARL':['MARL'],'MLP':['MLP'],\
-      'MRL':['MRL'],'MDS':['MDS'],'NMF':['NMF'],'NMDS':['NMDS'],'RBM':['RBM'],'SON':['SON'],'SSAE':['SSAE'],\
-      't-SNE':['t-SNE'],'WSN':['WSN'],'MCA':['MCA'],'LLE':['LLE'],'LRD':['LRD'],\
-      'vehicles':['car','bus','truck','bike','skateboard'],\
-      'body':['hand','body','face','arm','leg','finger'],'body':['hand','body','face','arm','leg','finger'],\
-      'type':['camera','radar','optical','mm-wave','Millimeter','mm','5G','4G','6G']}
-
 
 paperName=[]
 path = "C:\\Users\\prav\\PycharmProjects\\SVM\\PaperClassifier\\Papers\\"
@@ -74,8 +60,6 @@ for filename in glob.glob(os.path.join(path, '*.pdf')):
             doi = r.html.search('"doi":"{}"')[0]
         except requests.exceptions.RequestException as e:
             print(e)
-
-
 
         try:
             FN=PyPDF2.PdfFileReader(filename).getDocumentInfo()['/Title']
@@ -94,7 +78,7 @@ f.write(Paperjson)
 f.close()
 
 i=1
-workbook = xlsxwriter.Workbook('Classificationsheets\\'+ Ofile + '.xlsx')
+workbook = xlsxwriter.Workbook('Classification_sheets\\'+ Ofile + '.xlsx')
 worksheet = workbook.add_worksheet()
 for key,value in Papers.items():
 
