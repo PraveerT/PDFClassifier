@@ -10,6 +10,8 @@ import requests
 import json
 from requests_html import HTMLSession
 
+#output classifier file name
+Ofile='Gesture_recognition_paper'
 
 try:
     f = open('data.json', )
@@ -92,7 +94,7 @@ f.write(Paperjson)
 f.close()
 
 i=1
-workbook = xlsxwriter.Workbook('Classificationsheets\\classification'+(datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")+'.xlsx'))
+workbook = xlsxwriter.Workbook('Classificationsheets\\'+ Ofile +'.xlsx')
 worksheet = workbook.add_worksheet()
 for key,value in Papers.items():
 
