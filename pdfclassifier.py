@@ -6,19 +6,26 @@ from Counter import countword
 
 url = 'https://ieeexplore.ieee.org/document/'
 path = "C:\\Users\\prav\\PycharmProjects\\SVM\\PaperClassifier\\Papers\\"
-Ofile='Gesture_recognition_paper'
-#output classifier file name
 
-interest=['HMM','SVM','RL','PCA','EM','ANN','RNN','Bayesian']
+Ofile='Gesture_recognition_paper'
+
+
+interest=[]
+
+compare_to={"hand":["hand"],"body":["body"],"face":["face","head"]}
+
+algo = {}
+
 for m in interest:
 
-    f = open("data\\algo.json")
-    algo = json.load(f)
+    algo.clear()
+    algo.update(compare_to)
+
     algo[m]=[m]
+    algokeys=list(algo.keys())
 
 
-
-
+    cell_content = ['IEEEID', 'Bibtex']
 
     try:
         f = open('data\\'+Ofile+'.json', )
@@ -41,15 +48,17 @@ for m in interest:
 
     i=1
     word={}
-    workbook = xlsxwriter.Workbook('Classification_sheets\\'+ m + '.xlsx')
+    workbook = xlsxwriter.Workbook('Classification_sheets\\'+ m + str(algokeys)+ '.xlsx')
     worksheet = workbook.add_worksheet()
     cell_format = workbook.add_format({'bold': True})
-    worksheet.write(xlsxwriter.utility.xl_col_to_name(0) + str(1), 'IEEEID')
-    worksheet.write(xlsxwriter.utility.xl_col_to_name(1) + str(1), 'Bibtex')
-    worksheet.write(xlsxwriter.utility.xl_col_to_name(7) + str(1), (m)+' '+'hand')
-    worksheet.write(xlsxwriter.utility.xl_col_to_name(8) + str(1), (m)+' '+'body')
-    worksheet.write(xlsxwriter.utility.xl_col_to_name(9) + str(1), (m)+' '+'head/face')
+
+    for cellind in cell_content:
+        worksheet.write(xlsxwriter.utility.xl_col_to_name(cell_content.index(cellind)) + str(1), str(cellind))
     bib = open("bib.txt", "w")
+
+
+    ranking={}
+
 
     for key,value in Papers.items():
         Counts=countword(Papers,key,value)
@@ -72,20 +81,21 @@ for m in interest:
                 word[str(v)]=Spec_word_count,k
 
 
+
                 worksheet.write(xlsxwriter.utility.xl_col_to_name(x)+str(1),k+'-'+item)
                 worksheet.write(xlsxwriter.utility.xl_col_to_name(x)+str(i),Spec_word_count)
                 x+=1
 
-            worksheet.write_formula(xlsxwriter.utility.xl_col_to_name(x) + str(i),'=IF(AND(G'+str(i)+'>10,C'+str(i)+'>10),B'+str(i)+',"")')
-            worksheet.write_formula(xlsxwriter.utility.xl_col_to_name(x+1) + str(i),'=IF(AND(G'+str(i)+'>10,D'+str(i)+'>10),B'+str(i)+',"")')
-            worksheet.write_formula(xlsxwriter.utility.xl_col_to_name(x+2) + str(i),'=IF(OR(AND(G'+str(i)+'>10,E'+str(i)+'>10),AND(G'+str(i)+'>10,E'+str(i)+'>10)),B'+str(i)+',"")')
+            ranking[item] = xlsxwriter.utility.xl_col_to_name(x-1)
+        cellcounter=0
+        for dictlen in range(len(algo)):
+            worksheet.write(xlsxwriter.utility.xl_col_to_name(x + cellcounter) + str(1),(m+str(dictlen)))
 
-
-
-
-            worksheet.set_row(i-1, 20)
+            worksheet.write_formula(xlsxwriter.utility.xl_col_to_name(x+cellcounter) + str(i), \
+                                    '=IF(AND(' + ranking[m] + str(i) + '>10,'+ xlsxwriter.utility.xl_col_to_name(dictlen+2) + str(i) + '>10),B' + str(i) + ',"")')
+            cellcounter += 1
+        worksheet.set_row(i-1, 20)
 
 
     worksheet.freeze_panes(1, 0)
-
     workbook.close()
