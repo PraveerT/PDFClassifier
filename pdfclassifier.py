@@ -85,5 +85,7 @@ for m in interest:
 
             worksheet.set_row(i-1, 20)
 
+
     worksheet.freeze_panes(1, 0)
+
     workbook.close()
