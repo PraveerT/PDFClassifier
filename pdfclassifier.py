@@ -9,13 +9,13 @@ path = "C:\\Users\\prav\\PycharmProjects\\SVM\\PaperClassifier\\Papers\\"
 Ofile='Gesture_recognition_paper'
 #output classifier file name
 
-interest=['HMM','SVM','TEST']
+interest=['HMM','SVM','RL','PCA','EM','ANN','RNN','Bayesian']
 for m in interest:
 
     f = open("data\\algo.json")
     algo = json.load(f)
     algo[m]=[m]
-    print (algo)
+
 
 
 
@@ -84,7 +84,6 @@ for m in interest:
 
 
             worksheet.set_row(i-1, 20)
-    worksheet.write_formula('H' + str(i+1),'=CONCATENATE(TRANSPOSE(H2: H117))')
 
     worksheet.freeze_panes(1, 0)
     workbook.close()
