@@ -8,7 +8,7 @@ from requests_html import HTMLSession
 import requests
 from doi2bib import doi2bib
 
-def datajson(path,Papers,url):
+def datajson(path,Papers,url,Ofile):
     for filename in glob.glob(os.path.join(path, '*.pdf')):
         Filename=filename.replace("C:\\Users\\prav\\PycharmProjects\\SVM\\PaperClassifier\\Papers\\", '')
         Filename = Filename.replace(".pdf", '')
@@ -18,7 +18,7 @@ def datajson(path,Papers,url):
                 session = HTMLSession()
                 r = session.get(url+Filename[1:])
                 doi = r.html.search('"doi":"{}"')[0]
-                return doi
+
 
             except requests.exceptions.RequestException as e:
                 print(e)

@@ -1,4 +1,6 @@
-def doi2bib(cite):
+import requests
+
+def doi2bib(doi):
   url = "http://dx.doi.org/" + doi
 
   headers = {"accept": "application/x-bibtex"}
