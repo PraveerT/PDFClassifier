@@ -2,17 +2,17 @@ import xlsxwriter
 import json
 from datajson import datajson
 from Counter import countword
-
+from counterregex import finder
 
 url = 'https://ieeexplore.ieee.org/document/'
 path = "C:\\Users\\prav\\PycharmProjects\\SVM\\PaperClassifier\\Papers\\"
 
 Ofile='Gesture_recognition_paper'
 
-
-interest=[]
-
-compare_to={"hand":["hand"],"body":["body"],"face":["face","head"]}
+interest=['SVM','HMM','ANN','RNN','EM','RL','MLP','Bayesian','Neural']
+compare_to={"geometry":["geometry"],"motion":["motion"]\
+    ,"appearance":["appearance"],"space":["space"]}
+cell_content = ['IEEEID', 'Bibtex']
 
 algo = {}
 
@@ -25,7 +25,7 @@ for m in interest:
     algokeys=list(algo.keys())
 
 
-    cell_content = ['IEEEID', 'Bibtex']
+
 
     try:
         f = open('data\\'+Ofile+'.json', )
@@ -77,7 +77,7 @@ for m in interest:
             for item in v:
                 Spec_word_count=Counts[item] + Counts[item.upper()] \
                 + Counts[item + "s"] + Counts[item + "S"] + Counts[item.lower()] + Counts[item.lower() + "s"] \
-                + Counts[item.lower() + "S"] + Counts[item.capitalize()]
+                + Counts[item.lower() + "S"] + Counts[item.capitalize()] + Counts["n"+item]
                 word[str(v)]=Spec_word_count,k
 
 
@@ -88,7 +88,8 @@ for m in interest:
 
             ranking[item] = xlsxwriter.utility.xl_col_to_name(x-1)
         cellcounter=0
-        for dictlen in range(len(algo)):
+        for dictlen in range((len(algo))-1):
+
             worksheet.write(xlsxwriter.utility.xl_col_to_name(x + cellcounter) + str(1),(m+str(dictlen)))
 
             worksheet.write_formula(xlsxwriter.utility.xl_col_to_name(x+cellcounter) + str(i), \

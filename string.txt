@@ -1,0 +1,952 @@
+@article{Rodic17,
+
+ author={B. Rodic,
+ }, 	journal={Industry 4.0 and the new simulation modelling paradigm
+Journal of Management, Information Systems and Human Resources,
+ vol. 50,} }pp. 193},-207, 2017.
+@article{Saddik18,
+
+author={A. E. Saddik, },
+ journal={Digital Twins: The Convergence of Multimedia Technologies,IEEE MultiMedia, vol. 25, pp. 87-92, 2018. }
+}
+% Related Works --------------------------------------------------------------
+@article{relw0,
+ author={M. Grieves and J. Vickers,},
+
+title={Digital twin: Mitigating unpredictable, undesirable emergent behavior in complex systems},
+ journal={Transdisciplinary perspectives on complex systems, pp. 85-113, 2017},
+}
+@article{relw1,
+ author={M.E. Rose and J.R. Kitchin,},
+ title={pybliometrics: Scriptable bibliometrics using a Python interface to Scopus},
+
+
+ journal={SoftwareX, 10, p.100263, 2019.},
+}
+@article{relw2,
+ author={B.R. Barricelli, E. Casiraghi, and D., Fogli,},
+ title={A Survey on Digital Twin: Definitions, Characteristics, Applications, and Design Implications},
+
+
+ journal={IEEE Access 7, pp. 167653-167671, 2019.},
+}
+@article{relw3,
+ author={R. Minerva, G.M. Lee, and N., Crespi,},
+ title={Digital Twin in the IoT Context: A Survey on Technical Features, Scenarios, and Architectural Models},
+
+
+ journal={Proceedings of the IEEE, 108(10), pp.1785-1824, 2020.},
+}
+@article{relw4,
+ author={A. Löcklin, M., Müller, T. Jung, N. Jazdi, D. White, and M. Weyrich,},
+ title={Digital Twin for Verification and Validation of Industrial Automation Systems–a Survey},
+
+
+ journal={2020 25th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA), vol. 1, pp. 851-858, 2020.},
+}
+@article{relw5,
+ author={F. Biesinger, B. Kraß, and M. Weyrich,},
+ title={A Survey on the Necessity for a Digital Twin of Production in the Automotive Industry},
+
+
+ journal={2019 23rd International Conference on Mechatronics Technology (ICMT), pp. 1-8, 2019.},
+}
+@article{relw6,
+ author={Y. He, J. Guo, and X. Zheng,},
+ title={From surveillance to digital twin: Challenges and recent advances of signal processing for industrial internet of things},
+
+
+ journal={IEEE Signal Processing Magazine, 35(5), pp.120-129, 2018.},
+}
+@article{relw7,
+ author={F. Pires, ,A. Cachada, J. Barbosa, A.P. Moreira, and P. Leitão,},
+ title={Digital Twin in Industry 4.0: Technologies, Applications and Challenges},
+
+
+ journal={2019 IEEE 17th International Conference on Industrial Informatics (INDIN), vol. 1, pp. 721-726, 2019.},
+}
+% Digital Twin Definitions ----------------------------------------------
+@article{def1,
+ author={NASA,},
+
+title={Apollo 13},Houston, we've got a problem.},
+ journal={ Accessed: Mar. 30th, 2021. [Online]. Available: https://er.jsc.nasa.gov/seh/13index.html},
+}
+@article{def2,
+ author={M. Grieves and J. Vickers,},
+
+title={Digital twin: Mitigating unpredictable, undesirable emergent behavior in complex systems},
+ journal={Transdisciplinary perspectives on complex systems, pp. 85-113, 2017.},
+}
+% Market Research -----------------------------------------------------
+
+@article{market1,
+ author={IBM,},
+
+title={What is a digital twin?},
+ journal={ Accessed on: June 22nd, 2020, [Online], Available: https://www.ibm.com/topics/what-is-a-digital-twin},
+}
+@article{market2,
+ author={Aashish Mehra, Markets and Markets,},
+ title={Digital Twin Market worth \$48.2 billion by 2026}, Accessed on: June 22nd, 2020, [Online], Available: https://www.marketsandmarkets.com/PressReleases/digital-twin.asp}
+}
+@article{market3,
+ author={IBM,},
+
+title={Hong Kong Applied Science and Technology Research Institute Company Limited},
+ journal={ Accessed on: June 22nd, 2020, [Online], Available: https://www.ibm.com/case-studies/hong-kong-astri-engineering-rhapsody},
+}
+@article{market4,
+ author={IBM,},
+
+title={How UCSF Health is putting patients first with facilities management},
+ journal={ Accessed on: June 22nd, 2020, [Online], Available on: https://www.ibm.com/blogs/internet-of-things/iot-ucsf-health-and-maximo-smart-medical-buildings/},
+}
+@article{market5,
+ author={Ansys,},
+
+title={Digital Twins: Making the Vision Achievable},
+ journal={ Ansys Inc., Southpointe, U.S.A, [Online], Available: https://www.ansys.com/resource-center/white-paper/digital-twins-making-vision-achievable},
+}
+@article{market6,
+ author={F. Glas,},
+
+title={Virtual Quality Assurance in the Digital Orthopaedic Workshop of the Future - Mecuris},
+ journal={ Mecuris, [Online], Available: https://www.ansys.com/resource-center/case-study/mecuris-virtual-quality-assurance-digital-orthopaedic-workshop-future},
+}
+@article{market7,
+ author={R. Damian,},
+
+title={Ansys + Jet Towers},
+ journal={ Jet Towers, [Online], Available: https://www.ansys.com/content/dam/product/3d-design/aim/case-study-jet-towers.pdf},
+}
+@article{market8,
+ author={GE Power Digital Solutions,},
+
+title={GE Digital Twin: Analytic Engine for the Digital Power Plant},
+ journal={ General Electric, 2016, [Online], Available: https://www.ge.com/digital/sites/default/files/download\_assets/Digital-Twin-for-the-digital-power-plant-.pdf},
+}
+@article{market9,
+ author={Spirent,},
+
+title={Simplifying 5G with the Network Digital Twin},
+ journal={ White Paper, 2020, [Online], Available: https://www.spirent.com/assets/wp\_simplifying-5g-with-the-network-digital-twin},
+}
+@article{market10,
+ author={R. Jamnadass,},
+
+title={The relationship between 5G and Digital Twins in Industry 4.0},
+ journal={ July 2020, [Online], Available: https://www.spirent.com/assets/the-relationship-between-5g-and-digital-twins-in-industry-4-0},
+}
+@article{market11,
+ author={Deloitte Analytics Institute,},
+
+title={Predictive Maintenance},
+ journal={ Issue 7, 2017, [Online], Available: https://www2.deloitte.com/content/dam/Deloitte/de/Documents/deloitte-analytics/Deloitte\_Predictive-Maintenance\_PositionPaper.pdf},
+}
+@article{market12,
+ author={},
+ title={Digital Twin Market Global Forecast tO 2026by Markets and Markets Report Code: SE-5540, June-2020.}
+}
+@article{market13,
+ author={S. Evans, C. Savian, A. Burns, and C. Cooper,},
+
+title={Digital Twins for the built environment},
+ journal={ The Institution of Engineering and Technology, 2019, [Online], Available: https://www.theiet.org/media/4719/digital-twins-for-the-built-environment.pdf},
+}
+
+%Mahnoor
+%__________________________________
+@article{Cheng18,
+
+author={J. Cheng, W. Chen, F. Tao and C.-L. Lin, },
+
+journal={Ind
+strial IoT in 5G environment towards smart manufacturing}
+	journ,}al},={Journal of Industrial Information Integration, vol. 10, pp. 10-19, 2018. },
+}
+@article{Szabo19,
+
+ author={G. Szabó, S. Rácz, N. Reider, H. A. Munz and J. Peto,
+}, 	journal={Digital Twin: Network Provisioning of Mission Critical Communication in Cyber Physical Production Systems,
+
+  titl,}e={
+}, 	journal={2019 IEEE International Conference on Industry 4.0, Artificial Intelligence, and Communications, Technology (IAICT),
+ 2019.}, }
+
+
+
+@article{saddik,
+ author={A. E. Saddik,},
+
+title={Multimedia and the Tactile Internet},
+ journal={IEEE MultiMedia, vol. 27, pp. 5-7, 2020. },
+}
+@article{breunig2000,
+ author={M. M. Breunig,  H. P. Kriegel, R. T. Ng, J. Sander,},
+
+title={LOF: identifying density-based local outliers},
+ journal={Proceedings of the ACM SIGMOD international conference on Management of data, pp. 93-104, 2000},
+}
+@article{Schneider19,
+
+ author={S. Schneider, M. Peuster, D. Behnke, M. Müller, P. Bök and H. Karl,
+}, 	journal={Putting 5G into Production: Realizing a Smart Manufacturing Vertical Scenario,
+
+  titl,}e={
+}, 	journal={2019 European Conference on Networks and Communications (EuCNC),
+ 2019.}, }
+
+@article{santa,},
+ title={J. Santa, J. Ortiz, P. J. Fernandez, M. Luis, C. Gomes, J. Oliveira, D. Gomes, R. Sanchez-Iborra, S. Sargento and A. F. Skarmeta,},
+
+title={MIGRATE: Mobile Device Virtualisation Through State Transfer},
+ journal={IEEE Access, vol. 8, pp. 25848-25862, 2020.},
+}
+% MACHINE LEARNING SUBSECTION -----------------------------------------------
+@article{ml1,
+ author={M. Mitchell,},
+
+title={Why AI is Harder Than We Think},
+ journal={arXiv preprint arXiv:2104.12871, 2021.},
+}
+@article{ml2,
+ author={R. Dong, C. She, W. Hardjawana, Y. Li, and B. Vucetic,},
+
+title={Deep learning for hybrid 5G services in mobile edge computing systems: Learn from a digital twin},
+
+journal={IEEE Transactions on Wireless Communications, 18(10),}
+ journ,}al={pp.4692-4707, 2019.}
+}
+@article{ml3,
+ author={T.I. Zohdi,},
+
+title={A machine-learning framework for rapid adaptive digital-twin based fire-propagation simulation in complex environments},
+ journal={Computer Methods in Applied Mechanics and Engineering, 363, p.112907, 2020.},
+}
+@article{ml4,
+ author={Q. Min, Y. Lu, Z. Liu, C. Su, and B. Wang,},
+
+title={Machine learning
+ased digital twin framework for production optimization in petrochemical industry},
+ journal={Internationa},l Journal of Information Management, 49, pp.502-519, 2019.},
+}
+@article{ml5,
+ author={K. Xia, C. Sacco, M. Kirkpatrick, C. Saidy, L. Nguyen, A. Kircaliali, and R. Harik,},
+
+title={A d
+gital twin to train deep reinforcement learning agent for smart manufacturing plants: Environment, interfaces and intelligence},
+ journal},={Journal of Manufacturing Systems, 58, pp.210-230, 2021.},
+}
+@article{ml6,
+ author={M. Matulis and C. Harvey,},
+
+title={A robot arm digital twin utilising reinforcement learning},
+ journal={Computers & Graphics, 95, pp.106-114, 2021.},
+}
+@article{ml7,
+ author={X. He, Q. Ai, R.C. Qiu, and D. Zhang,},
+
+title={Preliminary Exploration on Digital Twin for Power Systems: Challenges, Framework, and Applications},
+ journal={arXiv preprint arXiv:1909.06977, 2019.},
+}
+@article{ml8,
+ author={S.E. Ahmed, O. San, K. Kara, R. Younis, and A. Rasheed,},
+
+title={Multifidelity computing for coupling full and reduced order models},
+ journal={Plos one, 16(2), p.e0246092, 2021.},
+}
+@article{ml9,
+ author={T.G. Ritto, and F.A. Rochinha,},
+
+title={Digital twin, physics-based model, and machine learning applied to damage detection in structures},
+ journal={Mechanical Systems and Signal Processing, 155, p.107614, 2021.},
+}
+@article{ml10,
+ author={J. Gammerman,},
+
+title={Predictive Maintenance with Conformal and Probabilistic Prediction: A Commercial Case Study},
+ journal={ MSc. Thesis, Dept. of Computer Science, RHUL, London, 2018, Accessed on: May 22, 2021, Available at: https://www.jamesgammerman.com/files/Thesis.pdf.},
+}
+@article{ml11,
+ author={S. Chakraborty, and S. Adhikari,},
+
+title={Machine learning based digital twin for dynamical systems with multiple time-scales},
+ journal={Computers & Structures, 243, p.106410, 2021.},
+}
+@article{ml12,
+ author={H. Laaki, Y. Miche, and K. Tammi,},
+
+title={Prototyping a digital twin for real time remote control over mobile networks: Application of remote surgery},
+ journal={IEEE Access, 7, pp.20325-20336, 2019.},
+}
+@article{ml13,
+ author={M.A. Ali, Q. Guan, R. Umer, W.J. Cantwell, and T. Zhang,},
+
+title={Deep learning based semantic segmentation of µCT images for creating digital material twins of fibrous reinforcements},
+ journal={Composites Part A: Applied Science and Manufacturing, 139, p.106131, 2020.},
+}
+@article{ml14,
+ author={K. Alexopoulos, N. Nikolakis, and G. Chryssolouris,},
+
+title={Digital twin-driv
+n supervised machine learning for the development of artificial intelligence applications in manufacturing},
+ journal={Internationa},l Journal of Computer Integrated Manufacturing, 33(5), pp.429-439, 2020.},
+}
+@article{ml15,
+ author={Y. Xu, Y. Sun, X. Liu, and Y. Zheng,},
+ title={A Digital-Twin-Assisted Fault Diagnosis Using Deep Transfer Learning,
+
+,  title={},
+ journal={IEEE Access, vol. 7, pp. 19990-19999, 2019.},
+}
+@article{ml16,
+ author={B. Maschler, D. Braun, N., Jazdi, and M. Weyrich,},
+
+title={Transfer Learning as an Enabler of the Intelligent Digital Twin},
+ journal={arXiv preprint arXiv:2012.01913, 2020.},
+}
+%-----------------------------------------------------
+
+@article{Rosen,
+ author={R. Rosen, G. Von Wichert, G. Lo, and K. D. Bettenhausen,},
+
+title={About the importance of autonomy and digital twins for the future of manufacturing},
+ journal={IEEE Access, Vol. 8, pp. 57063-57074, 2020.},
+}
+@article{halenar,
+author={
+Halenár, Igor, Martin Juhás, Bohuslava Juhásová and Dmitrii Borkin},
+title={Virtualization of Production Using Digital Twin Technology.20th International Carpathian Control Conference (ICCC), pp. 1-5, 2019.
+
+@article{zheng2019,
+author={
+Y. Xu} Yanming Sun, Xiaolong Liu and Yonghua Zheng},
+title={A Digital-Twin-Assisted Fault Diagnosis Using Deep Transfer LearningIEEE Access Vol. 7, pp. 19990 - 19999, 2019.
+
+@article{hoyhtya,
+author={
+M. Höyhtyä},
+title={Connectivity Manager: Ensuring Robust Connections for Autonomous Ships,},
+ title={in 2019 2nd International Conference on Intelligent Autonomous Systems (ICoIAS), 2019.
+
+@article{tao,
+author={
+Q. Qi} }and F. Tao},
+title={Digital twin and big data towards smart manufacturing
+pp. 3585 - 3593, 2018.
+
+% Cloud, Fog, Edge - enabling technologies ---------------
+@article{cloud1,
+ author={W. Xu, J. Cui, L. Li, B. Yao, S. Tian, and Z. Zhou,},
+
+title={Dig
+tal twin-based industrial cloud robotics: framework, control approach and implementation},
+ journal},={Journal of Manufacturing Systems, 2020.},
+}
+@article{cloud2,
+ author={W. Hofmann, and F. Branding,},
+
+title={Implementation of an IoT-and Cloud-based Digital Twin for Real-Time Decision Support in Port Operations},
+ journal={IFAC-PapersOnLine, 52(13), pp.2104-2109, 2019.},
+}
+@article{cloud3,
+ author={L. López-Estrada, M. Fajardo-Pruna, S. Gualoto-Condor, J. Ríos, and A. Vizán,},
+
+title={Creation of a micro cutting machine tool digital-twin using a cloud-based model-based PLM Platform: first results},
+ journal={Procedia Manufacturing, 41, pp.137-144, 2019.},
+}
+@article{cloud4,
+ author={S. Mi, Y. Feng, H. Zheng, Y. Wang, Y. Gao, and J. Tan,},
+
+title={Pre
+iction maintenance integrated decision-making approach supported by digital twin-driven cooperative awareness and interconnection framework},
+ journal},={Journal of Manufacturing Systems, 2020.},
+}
+@article{cloud5,
+ author={Y. Liu, L. Zhang, Y. Yang, L. Zhou, L. Ren, F. Wang, R. Liu, Z. Pang, and M.J. Deen,},
+
+title={A novel cloud-based framework for the elderly healthcare services using digital twin},
+ journal={IEEE Access, 7, pp.49088-49101, 2019.},
+}
+@article{cloud6,
+ author={Z. Wang, X. Liao, X. Zhao, K. Han, P. Tiwari, M.J. Barth, and G. Wu,},
+
+title={A digital twin paradigm: Vehicle-to-cloud based advanced driver assistance systems},
+
+journal={2020 IEEE 91st Vehicular Technology Conference (VTC2020-Spring),}
+ journ,}al={(pp. 1-6). IEEE, 2020.}
+}
+@article{cloud7,
+ author={L. Hu, N.T. Nguyen, W. Tao, M.C. Leu, X.F. Liu, M.R. Shahriar, and S.N. Al Sunny,},
+
+title={Modeling of cloud-based digital twins for smart manufacturing with MT connect. Procedia manufacturing},
+ journal={ 26, pp.1193-1203, 2018.},
+}
+@article{cloud8,
+ author={C. Liu, L. Le Roux, C. Körner, O. Tabaste, F. Lacan, and S. Bigot,},
+
+title={Dig
+tal Twin-enabled Collaborative Data Management for Metal Additive Manufacturing Systems},
+ journal},={Journal of Manufacturing Systems, 2020.},
+}
+@article{cloud9,
+ author={Y.H. Pan, T. Qu, N.Q. Wu, M. Khalgui, and G.Q. Huang,},
+
+title={Dig
+tal Twin Based Real-time Production Logistics Synchronization System in a Multi-level Computing Architecture},
+ journal},={Journal of Manufacturing Systems, 2020.},
+}
+% IoT, IIoT, and uRLLC Enabling Technologies ----------------------
+@article{iot1,
+author={
+E.P. Hinchy, N.P. O’Dowd, and C.T. McCarthy},
+title={Using open-source microcontrollers to enable digital twin communication for smart manufacturin},g
+journal={Procedia Manufacturing, 38 pp.1213-1219, 2019},
+
+@article{iot2,
+author={
+D. Guo, R.Y. Zhong, P. Lin, Z. Lyu, Y. Rong, and G.Q. Huang},
+title={Digital twin-enabled Graduation Intelligent Manufacturing System for fixed-position assembly island},s
+journal={Robotics and Computer-Integrated Manufacturing, 63 p.101917, 2020},
+
+@article{iot3,
+author={
+P. Wang, and M. Luo},
+title={A d
+gital twin-based big data virtual and real fusion learning reference framework supported by industrial internet towards smart manufacturin},g
+journal},={Journal of Manufacturing Systems, 58 pp.16-32},
+
+@article{iot4,
+author={
+P.K. Rajesh, N. Manikandan, C.S. Ramshankar, T. Vishwanathan and C. Sathishkumar},
+title={Digital Twin of an Automotive Brake Pad for Predictive Maintenanc},e
+journal={Procedia Computer Science, 165 pp.18-24, 2019},
+
+@article{iot5,
+author={
+R. Revetria, F. Tonelli, L. Damiani, M. Demartini, F. Bisio, and N. Peruzzo},
+title={A real-time mechanical structures monitoring system based on digital twin, iot and augmented realit},y
+journal={2019 Spring Simulation Conference (SpringSim) pp. 1-10, 2019},
+
+@article{iot6,
+author={
+G. White, A. Zink, L. Codecá, and S. Clarke},
+title={A digital twin smart city for citizen feedbac},k
+journal={Cities, 110 p.103064},
+
+@article{iot7,
+author={
+Z. Zhao, L. Shen, C. Yang, W. Wu, M. Zhang, and G.Q. Huang},
+title={IoT and digital twin enabled smart tracking for safety managemen},t
+journal={Computers \& Operations Research 128, p.105183},
+
+@article{iot8,
+author={
+Z. Jiang, Y. Guo, and Z. Wang},
+title={Dig
+tal Twin to Improve the Virtual-Real Integration of Industrial Io},T
+journal},={Journal of Industrial Information Integration p.100196},
+
+@article{iot9,
+author={
+A. Burger, C. Cichiwskyj, S. Schmeißer, and G. Schiele},
+title={The Elastic Internet of Things-A platform for self-integrating and self-adaptive IoT-systems with support for embedded adaptive hardwar},e
+journal={Future Generation Computer Systems, 113 pp.607-619, 2020},
+
+@article{iot10,
+author={
+E.Y. Song, M. Burns, A. Pandey, and T. Roth},
+title={IEEE 1451 smart sensor digital twin federation for IoT/CPS researc},h
+journal={2019 IEEE Sensors Applications Symposium (SAS) pp. 1-6, 2019},
+
+@article{iot11,
+ author={J. Tan, X. Sha, B. Dai and T. Lu,},
+
+title={Wireless Technology and Protocol for IIoT and Digital Twins},
+ journal={2020 ITU Kaleidoscope: Industry-Driven Digital Transformation (ITU K), pp. 1-8, Ha Noi, Vietnam, 2020.},
+}
+% CPS --------------------------------------------------------------------
+@article{cps1,
+ author={O. Cardin,},
+
+title={Classification of cyber-physical production systems applications: Proposition of an analysis framework},
+ journal={Computers in Industry, 104, pp.11-21, 2019.},
+}
+@article{cps2,
+ author={F. Tao, Q. Qi, L. Wang, and A.Y.C. Nee,},
+
+title={Digital twins and cyber–physical systems toward smart manufacturing and industry 4.0: Correlation and comparison},
+ journal={Engineering, 5(4), pp.653-661, 2019.},
+}
+@article{cps3,
+ author={P. Zheng, and A.S. Sivabalan,},
+
+title={A generic tri-model-based approach for product-level digital twin development in a smart manufacturing environment},
+ journal={Robotics and Computer-Integrated Manufacturing, 64, p.101958, 2020.},
+}
+@article{cps4,
+ author={S.M. Bazaz, M. Lohtander, and J. Varis,},
+
+title={5-dimensional definition for a manufacturing digital twin},
+ journal={Procedia Manufacturing, 38, pp.1705-1712, 2019.},
+}
+@article{cps5,
+ author={C. Liu, P. Jiang, and W. Jiang,},
+
+title={Web-based digital twin modeling and remote control of cyber-physical production systems},
+ journal={Robotics and computer-integrated manufacturing, 64, p.101956, 2020.},
+}
+@article{cps6,
+ author={M. Borth, J. Verriet, and G. Muller,},
+ title={Digital twin strategies for SoS 4 challenges and 4 architecture setups for digital twins of SoS,
+
+,  title={},
+ journal={2019 14th Annual Conference System of Systems Engineering (SoSE), pp. 164-169, 2019.},
+}
+@article{cps7,
+ author={E. Negri, L. Fumagalli, C. Cimino, and M. Macchi,},
+
+title={FMU-supported simulation for CPS digital twin},
+ journal={Procedia manufacturing, 28, pp.201-206, 2019.},
+}
+@article{cps8,
+ author={E. Negri, H.D. Ardakani, L. Cattaneo, J. Singh, M. Macchi, and J. Lee,},
+
+title={A digital twin-based scheduling framework including equipment health index and genetic algorithms},
+ journal={IFAC-PapersOnLine, 52(10), pp.43-48, 2019.},
+}
+@article{cps9,
+ author={E. Negri, S. Berardi, L. Fumagalli, and M. Macchi,},
+
+title={MES
+integrated digital twin frameworks},
+ journal},={Journal of Manufacturing Systems, 56, pp.58-71, 2020.},
+}
+@article{cps10,
+ author={M. Glatt, C. Sinnwell, L. Yi, S. Donohoe, B. Ravani, and J.C. Aurich,},
+
+title={Mod
+ling and implementation of a digital twin of material flows based on physics simulation},
+ journal},={Journal of Manufacturing Systems, 2020.},
+}
+%% VR/AR ------------------------------------------------
+@article{vr_ar1,
+ author={R. Rocca, P. Rosa, C. Sassanelli, L. Fumagalli, and S. Terzi,},
+ title={Integrating virtual reality and digital twin in circular economy practices: a laboratory application case
+
+,
+ journal={Sustainability, 12(6), p.2286, 2020.},
+}
+@article{vr_ar2,
+ author={V. Kuts, T. Otto, T. Tähemaa, and Y. Bondarenko,},
+ title={Digital twin based synchronised control and simulation of the industrial robotic cell using virtual reality
+
+,
+ journal},={Journal of Machine Engineering, 19, 2019.},
+}
+@article{vr_ar3,
+ author={A. M. Karadeniz, I. Arif, A. Kanak and S. Ergün,},
+
+title={Digital Twin of eGastronomic Things: A Case Study for Ice Cream Machines},
+ journal={2019 IEEE International Symposium on Circuits and Systems (ISCAS), pp. 1-4, 2019.},
+}
+@article{vr_ar4,
+ author={G. Schroeder, C. Steinmetz, C.E. Pereira, I. Muller, N. Garcia, D. Espindola, and R. Rodrigues,},
+ title={Visualising the digital twin using web services and augmented reality
+
+,
+ journal={2016 IEEE 14th international conference on industrial informatics (INDIN), pp. 522-527, 2016.},
+}
+@article{vr_ar5,
+ author={R. Williams, J.A. Erkoyuncu, and T. Masood,},
+ title={Augmented reality assisted calibration of digital twins of mobile robots
+
+,
+ journal={IFAC-PapersOnLine, 53(3), pp.203-208, 2020.},
+}
+@article{vr_ar6,
+ author={X. Ma, F. Tao, M. Zhang, T. Wang, and Y. Zuo,},
+ title={Digital twin enhanced human-machine interaction in product lifecycle
+
+,
+ journal={Procedia Cirp, 83, pp.789-793, 2019.},
+}
+@article{vr_ar7,
+ author={S. Ke, F. Xiang, Z. Zhang, and Y. Zuo,},
+ title={A enhanced interaction framework based on VR, AR and MR in digital twin
+
+,
+ journal={Procedia cirp, 83, pp.753-758, 2019.},
+}
+%%%%%-----------------------------------
+
+% Dattaprasad - Enabling Technologies
+@article{agustin97,
+author={R. Agustín},
+title={Programmable logic controllers versus personal computers for process contro},l
+journal={21st International Conference on Computers and Industrial Engineering,33, no. 1-2, pp. 421-424, 1997.},
+}
+@article{plc,
+author=},{
+title={Uses of PLCs in industries Mobile Automation [Online]. Available: https://www.mobileautomation.com.au/plc-industrial-application/, 2020 [Accessed: 18- Sep- 2020].
+
+@article{cps,
+author={P. Asare et al.},
+title={Cyber-Physical Systems - a Concept Ma},p
+journal={ Ptolemy.berkeley.edu, 2020. [Online]. Available: https://ptolemy.berkeley.edu/projects/cps/. [Accessed: 10- Oct- 2020].},
+}
+@article{rasheed2019,
+ author={A. Rasheed, S. Omer, K. Trond,},
+
+title={Digital Twin: Values, Challenges and Enablers},
+
+journal={arXiv preprint,}
+ journ,}al={arXiv:1910.01719 (2019).}
+}
+@article{becue2020,
+author={A. Becue, E. Maia, L. Feeken, P. Borchers, I. Praca},
+title={A New Concept of Digital Twin Supporting Optimization and Resilience of Factories of the Futur},e
+journal={Applied Sciences 10 no. 13 (2020): 4482.},
+}
+% Dattaprasad - Anomaly Detection Literature Survey
+
+@article{fuller2020,
+author={A. Fuller, Z. Fan, C. Day, C. Barlow},
+title={Digital Twin: Enabling Technologies, Challenges and Open Research},
+
+journal={IEEE Access doi:10.1109/ACCESS.2020.2998358 },
+}
+@article{dai2019,
+author={H.N. Dai, H. Wang, G. Xu, J. Wan, M. Imran},
+title={Big data analytics for manufacturing internet of things: opportunities, challenges and enabling technologies,}
+journal={Enterprise Information Systems pp.1-25, 2019.},
+}
+@article{chhetri2019,
+author={S. R. Chhetri, S. Faezi ,A. Canedo, M. A. A. Faruque},
+title={QUILT: quality inference from living digital twins in IoT-enabled manufacturing systems},
+journal={Proceedings of the International Conference on Internet of Things Design and Implementation 2019.},
+}
+@article{lu2020,
+author={Q. Lu, X. Xie, A. K. Parlikad, J. M. Schooling},
+title={Digital twin-enabled anomaly detection for built asset monitoring in operation and maintenance},
+journal={Automation in Construction 118 (2020): 103277, 2020.},
+}
+@article{andrea2020,
+author={C. Andrea, S. Schmitt, S. Squartini},
+title={Real-World Anomaly Detection by using Digital Twin Systems and Weakly-Supervised Learning},
+journal={arXiv preprint arXiv:2011.06296, DOI 10.1109/TII.2020.3019788, 2020},
+}
+@article{maurizio2020,
+author={B. Maurizio, E. Bottani, F. E. Ciarapica, F. Costantino, L. D. Donato, A. Ferraro, G. Mazzuto},
+title={Digital Twin Reference Model Development to Prevent Operators’ Risk in Process Plants Sustainabilit},y
+journal={12, no. 3 (2020): 1088.},
+}
+@article{zaccaria2018,
+author={V. Zaccaria, S. Mikael, A. Ioanna , G. K. Konstantinos },
+title={Fleet monitoring and diagnostics framework based on digital twin of aero-engines},
+journal={In Turbo Expo: Power for Land, Sea, and Air vol. 51128, p. V006T05A021. American Society of Mechanical Engineers, 2018.},
+}
+@article{xie2020,
+author={X. Xie, Q. Lu, A. K. Parlikad, J. M. Schooling},
+title={Digital Twin Enabled Asset Anomaly Detection for Building Facility Management},
+journal={ IFAC-PapersOnLine 53 vol. 3, pp. 380-385, 2020},
+}
+@article{qam2019,
+author={Y. Qamsane, C.Y. Chen, E. Balta, B. C. Kao, S. Mohan, J. Moyne,  D. Tilbury, K. Barton,}
+journal={A Unified Digital Twin Framework for Real-time Monitoring and Evaluation of Smart Manufacturing System}s
+journ,}al={2019 IEEE 15th International Conference on Automation Science and Engineering (CASE) Vancouver, BC, Canada, 2019, pp. 1394-1401, doi: 10.1109/COASE.2019.8843269.}
+}
+% Dattaprasad (Indian Team) - Anomaly Detection: N-Step
+@article{zhang2013,
+author={J. Zhang},
+title={Advancements of outlier detection: a surve},y
+journal={In: ICST Transactions on Scalable Information Systems 13 (1), 2013},
+}
+@article{kotu2019,
+author={V. Kotu, B. Deshpande},
+journal={Data Science: Concepts and Practise, 2nd ed. Cambridge: Elsevier, pp. 447-465, 2019.},
+}
+@article{agni2017,
+author={A. Nowak-Brzezinska,  T. Xieski},
+title={Outlier mining using the DBSCAN algorith},m
+title={}
+
+journal},={Journal of Applied Computer Science 25(2):53-68, 2017},
+}
+@article{akbari2016,
+author={Z. Akbari, R. Unland},
+title={Automated determination of the input parameter of dbscan based on outlier detectio},n
+journal={In IFIP International Conference on Artificial Intelligence Applications and Innovations pp. 280-291. Springer, Cham, 2016.},
+}
+@article{liu2008,
+author={F. T. Liu, K. M. Ting, Z. Zhou},
+title={Isolation fores},t
+journal={Proceedings In Eighth IEEE International Conference on Data Mining pp. 413-422. IEEE, 2008.},
+}
+@article{chen2016,
+author={W. R. Chen, Y. H. Yun , M. Wen, H. M. Lu, Z. M. Zhang, Y. Z. Liang},
+title={Representative subset selection and outlier detection via isolation fores},t
+title={},
+journal={Analytical Methods 8(39), pp.7225-7231, 2016},
+}
+@article{breunig2000,
+ author={M. M. Breunig,  H. P. Kriegel, R. T. Ng, J. Sander,},
+
+title={LOF: identifying density-based local outliers},
+ journal={Proceedings of the ACM SIGMOD international conference on Management of data, pp. 93-104, 2000},
+}
+@article{cheng2019,
+author={Z. Cheng, C. Zou, J. Dong},
+title={Outlier detection using isolation forest and local outlier facto},r
+journal={In Proceedings of the Conference on Research in Adaptive and Convergent System}s
+journ,}al={(RACS '19), Association for Computing Machinery, New York, NY, USA, 161–168, 2019.}
+}
+@article{shetve2020,
+author={D. Shetve, R. V. Prasad, R. Trestian, H. X. Nguyen, H. Venkataraman},
+title={CATS: Cluster-Aided Two-Step Approach for Anomaly Detection in Smart Manufacturing},
+journal={Proc. The Fourth International Conference on Computing and Network Communications ,(C,oCoNet’20), Vellore, India, 2020},
+}
+@article{klerx2014,
+author={T. Klerx, M. Anderka, H. K. Büning S. Priesterjahn},
+title={Model-based anomaly detection for discrete event system},s
+journal={In 2014 IEEE 26th International Conference on Tools with Artificial Intelligence pp. 665-672. IEEE, 2014.},
+}
+@article{khalastchi2015,
+author={E. Khalastchi, M. Kalech, G. A. Kaminka, R. Lin,}
+journal={Online data-driven anomaly detection in autonomous robots Knowledge and Information Systems 43(3), 657–688, 2015  },
+}
+@article{tao2017,
+ author={F. Tao, Z. Meng,},
+
+title={Digital twin shop-floor: a new shop-floor paradigm towards smart manufacturing},
+ journal={IEEE Access 5, 20418-20427, 2017.},
+}
+% Smart Factory and Industry 4.0 --------------------------------
+@article{sfi1,
+ author={V. V. Makarov, Y. B. Frolov, I. S. Parshina and M. V. Ushakova,},
+
+title={The Design Concept of Digital Twin},
+ journal={2019 Twelfth International Conference Management of large-scale system developmen(MLSD), Moscow, Russia, pp. 1-4, 2019.},
+}
+@article{sfi2,
+ author={D. Preuveneers, W. Joosen and E. Ilie-Zudor,},
+
+title={Robust Digital Twin Compositions for Industry 4.0 Smart Manufacturing Systems},
+ journal={2018 IEEE 22nd International Enterprise Distributed Object Computing Workshop (EDOCW), Stockholm, pp. 69-78, 2018.},
+}
+@article{sfi3,
+ author={J. Lee, M. Azamfar, J. Singh and S. Siahpour,},
+
+title={Integration of digital twin and deep learning in cyber-physical systems: towards smart manufacturing},
+ journal={in IET Collaborative Intelligent Manufacturing, vol. 2, no. 1, pp. 34-36, 2020.},
+}
+@article{sfi4,
+ author={G. A. Gericke, R. B. Kuriakose, H. J. Vermaak and O. Mardsen,},
+
+title={Design of Digital Twins for Optimization of a Water Bottling Plant},
+ journal={IECON 2019 - 45th Annual Conference of the IEEE Industrial Electronics Society, pp. 5204-5210, 2019.},
+}
+@article{sfi5,
+ author={W. D. Lin and M. Y. H. Low,},
+
+title={Concept and Implementation of a Cyber-Pbysical Digital Twin for a SMT Line},
+ journal={2019 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), pp. 1455-1459, 2019.},
+}
+@article{sfi6,
+ author={H.R. Hasan, K. Salah, R. Jayaraman, M. Omar, I. Yaqoob, S. Pesic, T. Taylor, and D. Boscovic,},
+
+title={A blockchain-based approach for the creation of digital twins},
+ journal={IEEE Access, 8, pp.34113-34126, 2020.},
+}
+%----------------------------------
+% Stefan - Predictive Maintenance
+@article{lit0,
+ author={},
+ title={Simplifying 5G with the Network Digital Twin, Spirent. Accessed March 16th, 2020. [Online]. Available: https://www.spirent.com/assets/wp/wp\_simplifying-5g-with-the-network-digital-twin}
+}
+@article{lit01,
+ author={O. Motaghare, A. S. Pillai and K. I. Ramachandran,},
+
+title={Predictive Maintenance Architecture},
+ journal={2018 IEEE International Conference on Computational Intelligence and Computing Research (ICCIC), Madurai, India, 2018, pp. 1-4},
+}
+@article{lit02,
+ author={H.A. Gohel, H. Upadhyay, L. Lagos, K. Cooper and A. Sanzetenea,},
+
+title={Predictive Maintenance Architecture Development for Nuclear Infrastructure using Machine Learning},
+ journal={Nuclear Engineering and Technology, 2020.},
+}
+@article{lit03,
+ author={C. Cheng, B. Zhang and D. Gao,},
+
+title={A Predictive Maintenance Solution for Bearing Production Line Based on Edge-Cloud Cooperation},
+ journal={2019 Chinese Automation Congress (CAC), Hangzhou, China, 2019, pp. 5885-5889},
+}
+@article{lit031,
+ author={F. Francis and M. Mohan,},
+
+title={ARIMA Model based Real Time Trend Analysis for Predictive Maintenance},
+ journal={2019 3rd International conference on Electronics, Communication and Aerospace Technology (ICECA), Coimbatore, India, 2019, pp. 735-739},
+}
+@article{lit04,
+ author={A. Cachada et al.,},
+
+title={Maintenance 4.0: Intelligent and Predictive Maintenance System Architecture},
+ journal={2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation (ETFA), Turin, 2018, pp. 139-146},
+}
+@article{lit05,
+ author={MIMOSA,},
+
+title={MIMOSA OSA-CBM},
+ journal={ 2010, [Online], Accessed on the 10th of August 2020, https://www.mimosa.org/mimosa-osa-cbm/},
+}
+@article{lit06,
+ author={J. Lee, M. Azamfar, J. Singh and S. Siahpour,},
+ title={Integration of digital twin and deep learning in cyber-physical systems: towards smart manufacturing,
+
+,  title={},
+ journal={IET Collaborative Intelligent Manufacturing, vol. 2, no. 1, pp. 34-36, 3 2020},
+}
+@article{lit1,
+author={S. Fe}r}reiro, E, Konde, and A. Prado},
+title={Industry 4.0: Predictive Intelligent Maintenance for Production Equipment},
+journal={European Conference of the Prognostics and Health Management Society pp. 1–8, 2016},
+
+@article{lit2,
+author={
+S. Wang, Y.C. Liang, W.D. Li, and X.T. Cai},
+title={Big
+Data enabled Intelligent Immune System for energy efficient manufacturing management},
+journal},={Journal of cleaner production vol. 195, pp. 507-520, September 2018},
+
+@article{lit3,
+author={
+Y.C. Liang, S. Wang, W.D. Li, and X. Lu},
+title={Data-Driven Anomaly Diagnosis for Machining Processes},
+journal={Engineering vol. 5, issue 4, pp. 646-652, August 2019},
+
+@article{lit4,
+author={
+Y.C. Liang, W.D. Li, X. Lu, and S. Wang},
+title={Fog
+computing and convolutional neural network enabled prognosis for machining process optimization},
+journal},={Journal of Manufacturing Systems vol. 52, pp. 32-42, July 2019},
+
+@article{lit401,
+ author={T. Benkedjouh, K. Medjaher, N. Zerhouni, and S. Rechak,},
+ title={Health assessment and life prediction of cutting tools based on support vector regression},
+
+
+ journal},={Journal of Intelligent Manufacturing, 26(2), pp. 213-223, 2015.},
+}
+@article{lit402,
+ author={T.B,enkedjouh, K.Medjaher, N.Zerhouni, and S.Rechak,},
+ title={Remaining useful life estimation based on nonlinear feature reduction and support vector regression},
+
+
+ journal={Engineering Applications of Artificial Intelligence, vol. 26, issue 7, pp. 1751-1760, 2013.},
+}
+,@article{lit41,
+author={
+Y. Choi, H. Kwun, D. Kim, E. Lee and H. Bae},
+title={Method of Predictive Maintenance for Induction Furnace Based on Neural Networ},k
+journal={2020 IEEE International Conference on Big Data and Smart Computing (BigComp) Busan, Korea (South), 2020, pp. 609-612},
+
+@article{lit42,
+author={
+Q. Wang, S. Bu and Z. He},
+title={Achieving Predictive and Proactive Maintenance for High-Speed Railway Power Equipment With LSTM-RNN,},
+ title=},{
+journal={IEEE Transactions on Industrial Informatics vol. 16, no. 10, pp. 6509-6517, Oct. 2020},
+
+@article{lit421,
+author={
+N. Gugulothu, V. Tv, P. Malhotra, L. Vig, P. Agarwal, and G. Shroff},
+title={Predicting remaining useful life using time series embeddings based on recurrent neural network},s
+journal={arXiv preprint arXiv:1709.01073.,
+ author={2017}
+}
+@article{lit43,
+author={K.T.P. Nguyen, K. Medjaher},
+title={A new dynamic predictive maintenance framework using deep learning for
+failure prognostics,}
+journal={Reliability Engineering and System Safety Volume 188, August 2019, pp. 251-262},
+
+@article{lit44,
+ author={J. Wang, Y. Liang, Y. Zheng, R.X. Gao, and Fengli Zhang,},
+
+title={An integrated fault diagnosis and prognosis approach for predictive maintenance of wind turbine bearing with limited samples},
+ journal={Renewable Energy, vol. 145, pp. 642-650, 2020.},
+}
+@article{lit5,
+author={
+Y. Hsieh, F. Cheng, ,H. Huang, C. Wang, S. Wang and H. Yang},
+title={VM-Based Baseline Predictive Maintenance Scheme},
+journal={IEEE Transactions on Semiconductor Manufacturing,
+ author={vol. 26, no.1, pp. 132-144, Feb. 2013.}
+}
+
+@article{lit51,
+author={
+Q. Qiao, J. Wang, L. Ye, and R. X. Gao},
+title={Digital Twin for Machining Tool Condition Prediction,}
+journal={Procedia CIRP vol. 81, pp. 1388-1393, 2019},
+
+@article{lit6,
+author={
+I.V. Ortega},
+title={Development, of a Digital Twin to support machine prognostics with low availability of run-to-failure data, MSc. Thesis, Sch. of Industrial and Information Engineering, Politecnico di Milano, Milan, Italy, 2019.
+
+@article{lit7,
+author={
+P. Aivaliotis, K. Georgoulias and G. Chryssolouris},
+title={A RUL Calculation Approach Based on Physical-based Simulation Models for Predictive Maintenance, 201},7
+journal={International Conference on Engineering Technology and Innovation (ICE/ITMC) Funchal, pp. 1243-1246, 2017},
+
+@article{lit71,
+ author={P.K. Rajesh, N. Manikandan, C.S. Ramshankar, T. Vishwanathan and C. Sathishkumar,},
+
+title={Digital Twin of an Automotive Brake Pad for Predictive Maintenance},
+ journal={Procedia Computer Science, 165, pp.18-24, 2019.},
+}
+@article{lit8,
+author={
+A. Barthelmey, E. Lee, R. Hana and J. Deuse},
+title={Dynamic digital twin for predictive maintenance in flexible production systems},
+journal={IECON 2019 - 45th Annual Conference of the IEEE Industrial Electronics Society Lisbon, Portugal, pp. 4209-4214, 2019},
+
+@article{lit9,
+ author={P. Aivaliotis, K. Georgoulias and K. Alexopoulos,},
+
+title={Using digital twin for maintenance applications in manufacturing: State of the Art and Gap analysis,},
+ journal={2019 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC), pp. 1-5, 2019.},
+}
+@article{lit91,
+ author={R. Sahal, J.G. Breslin, and M.I. Ali,},
+
+title={Big
+data and stream processing platforms for Industry 4.0 requirements mapping for a predictive maintenance use case},
+ journal},={Journal of Manufacturing Systems, vol. 54, pp. 138-151, 2020.},
+}
+@article{lit10,
+ author={Y. Xu, Y. Sun, X. Liu and Y. Zheng,},
+
+title={A Digital-Twin-Assisted Fault Diagnosis Using Deep Transfer Learning},
+ journal={IEEE Access, vol. 7, pp. 19990-19999, 2019.},
+}
+% Case Study - CP Lab
+@article{uc_sfi1,
+ author={M. Raza, P. M. Kumar, H. Dang-Viet, W. Davis, H. X. Nguyen, and R. Trestian,},
+
+title={A Digital Twin Framework for Industry 4.0 Enabling Next-Gen Manufacturing,},
+ journal={Proc. 2020 9th Int. Conf. Industrial Technology and Management (ICITM 2020), Oxford, UK, 2020.},
+}
+
+
+@article{uc_sfi2,
+ author={S. Mihai, W. Davis, H. V. Dang, R. Trestian, M. Karamanoglu, B. Barn, R. V. Prasad, H. Venkataraman, and H. Nguyen,},
+
+title={A Digital Twin Framework for Predictive Maintenance in Industry 4.0,},
+ journal={2020 International Conference on High Performance Computing & Simulation (HPCS 2020), 2020.},
+}
